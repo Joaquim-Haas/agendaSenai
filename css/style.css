@@ -1,0 +1,36 @@
+:root{
+    --background-color: #0061ae;
+}
+
+body {
+    margin: 0 auto;
+    /*margin serve para definir o tamanho da margem*/
+    width: 100%;
+    /*serve para mudar o tamano do conteúdo mostrado na tela*/
+    max-width: 1920px;
+    /*max width serve para limitar o tamanho da tela*/
+    background-color: #6d9fc9;
+    /*background color serve para mudar a cor do fundo*/
+}
+
+header{
+    font-size:1%;
+    position: relative;
+    background: linear-gradient(#0061ae, #6d9fc9);
+    height: 300px;
+    background-color: var(--background-color);
+    width: 100%;
+}
+
+footer{ 
+    font-size:1%;
+    position: relative;
+    background: linear-gradient(#6d9fc9, #0061ae);
+    height: 50px;
+    clear:both;
+    background-color: var(--background-color);
+}
+
+img{
+    width: 20%;
+}
